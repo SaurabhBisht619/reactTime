@@ -1,0 +1,176 @@
+.heading, .field{
+  margin-top: 20px;
+  display: flex;
+  gap: 100px;
+  margin-left: 130px;
+}
+
+
+
+.field{
+  gap:150px;
+  position: relative;
+
+}
+
+
+
+.form{
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  border: 2px solid;
+  padding: 20px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: antiquewhite;
+}
+
+
+
+
+.carousel{
+  width: 100%;
+  height: 55vh;
+  display: flex;
+}
+
+.addBtn{
+  width: 100%;
+  height: 5vh;
+  font-size: larger;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  color: white;
+}
+
+
+.images{
+  display: flex;
+  width: 80vw;
+}
+
+
+.prevBtn{
+  margin: 25vh 40px 0px 60px;
+}
+
+.carouselImage{
+  width: 50%;
+  height: 30vw;
+}
+
+.portalImage{
+  width: 100vw;
+  height: 90vh;
+}
+
+.closeBtn{
+  width: 30vw;
+  height: 50px;
+  margin-left: 35vw;
+  font-size: x-large;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.footer{
+  margin-top: 30px;
+}
+
+
+.image-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-block img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.slideshow {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+
+.slider{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;  
+}
+
+figure{
+  position: relative;
+  left: 0;
+  width: 400%;
+  /* animation: 10s slide infinite; */
+}
+
+
+.slide{
+  position: relative;
+  width: 25%;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img{
+  width: 60%;
+  height: 55vh;
+}
+
+@keyframes slide{
+  10%{
+      left:0;
+  }
+  20%{
+      left:-100%;
+  }
+  30%{
+      left:-100%;
+  }
+  40%{
+      left:-200%;
+  }
+  50%{
+      left:-200%;
+  }
+  60%{
+      left:-300%;
+  }
+  100%{
+      left:0;
+  }
+}
+
+
+.inpForm{
+  width: 30vw;
+  height: 5vh;
+  background-color: rgb(61, 60, 60);
+  border: none;
+  padding-left: 2vw;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.inpForm::placeholder {
+  color: rgb(242, 236, 236); /* Change this to your desired color */
+}
